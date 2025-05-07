@@ -1,0 +1,44 @@
+#container {
+  display: grid;
+  grid-template-rows: auto 50rem 50rem;
+}
+body{
+  color: whitesmoke;
+  text-shadow: 0.1rem 0.1rem 0.3rem grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ background-color: rgb(210, 208, 160);
+background: url(sarmaşık.png);
+background-repeat: repeat;
+}
+
+
+.elements{
+  display: block;
+  padding: 0.5rem;
+  margin: 1rem;
+
+}
+div{
+
+  margin-top: 6rem;
+  padding: 1rem;
+  background-color: rgb(158, 188, 138);
+  border: 0.2rem solid rgb(115, 148, 107) ;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px rgba(83, 125, 93, 0.5);
+}
+
+#submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  margin: auto;
+  color: whitesmoke;
+  background-color:  rgb(115, 148, 107);
+  border-style: none;
+  box-shadow: 0.1rem 0.1rem 0.15rem rgba(48, 71, 53, 0.5);
+}
